@@ -1,16 +1,18 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script src="/Users/ckasturi/highlite/js/jquery.highlite.js"></script>
+<script>
+$(document).ready(function(){
+ 	$('p').highlite();
+});
+</script>
+</head>
 <body>
-<nav>
-<ul>
-<li>Home</li>
-<li>test</li>
-<li>development</li>
-<li>production</li>
-<li>contact</li>
-</ul>
-</nav>
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
 </body>
 </html>
